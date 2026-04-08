@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #eaeaea;
+}
+
+.cartao {
+    width: 300px;
+    padding: 20px;
+    margin: 40px auto;
+    border-radius: 15px;
+    background-color: white;
+    border: 1px solid #ccc;
+    box-shadow: 3px 3px 5px rgba(0,0,0,0.2);
+}
+
+.titulo {
+    margin-bottom: 15px;
+}
+
+.imagem {
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.texto {
+    margin-bottom: 20px;
+}
+
+.rodape {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+button {
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 8px 20px;
+    cursor: pointer;
+}
